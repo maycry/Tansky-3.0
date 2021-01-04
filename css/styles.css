@@ -29,6 +29,10 @@ a, a:visited{
 	text-decoration: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*---------Index---------*/
 
 .above-fold{
@@ -93,11 +97,9 @@ a, a:visited{
 	width: 100%;
 	height: 100%;
 	padding: 0 30px;
-	box-sizing: border-box;
 }
 
 .hero{
-	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
 	background-color: #aaa;
@@ -160,8 +162,6 @@ a, a:visited{
 	padding: 50px 30px;
 	display: flex;
 }
-
-
 
 .footer a:first-child{
 	margin-right: 30px;
