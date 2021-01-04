@@ -19,5 +19,13 @@ $(document).ready(function(){
         $(".hero").css("opacity", 0)
       }
     }
+
+    $( ".projects" ).click(function() {
+      p = $( ".projects" ).position().top;
+      $('html, body').animate({
+          scrollTop: 500
+       }, 500);
+
+    });
   }
 });
